@@ -10,9 +10,9 @@ import posthog from 'posthog-js'
 import { getEnv, getSiteConfig } from './get-config-value'
 import { NavigationLink } from './site-config'
 import {
+  NavigationStyle,
   PageUrlOverridesInverseMap,
   PageUrlOverridesMap,
-  NavigationStyle,
   Site
 } from './types'
 
