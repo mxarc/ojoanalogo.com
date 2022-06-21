@@ -73,6 +73,7 @@ strong {
   --notion-max-width: 900px;
 }
 
+
 .notion-text {
   padding: 0.5em 2px;
   font-family: var(--font-family-primary);

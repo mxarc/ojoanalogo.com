@@ -42,14 +42,14 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
-    '/gallery': '03f70423afab4b6b8bcaf1c97b1aa734',
-    '/blog': 'e9e22c15df974d3bb150e27a6f637807'
+    //'/gallery': '03f70423afab4b6b8bcaf1c97b1aa734',
+    //'/blog': 'e9e22c15df974d3bb150e27a6f637807'
   },
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
   // navigationStyle: 'default'
-  navigationStyle: 'custom',
+  navigationStyle: 'default',
   navigationLinks: [
     {
       title: '🖼️ Fotografía',
