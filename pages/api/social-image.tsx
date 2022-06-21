@@ -23,7 +23,7 @@ import * as config from 'lib/config'
  * that would've been passed to puppeteer. This makes it much easier to develop
  * and debug issues locally.
  */
-const debugInspectHtml = false
+const debugInspectHtml = false;
 
 export default withOGImage<'query', 'id'>({
   template: {
@@ -67,19 +67,19 @@ export default withOGImage<'query', 'id'>({
       )
 
       const author =
-        getPageProperty<string>('Author', block, recordMap) || config.author
+        getPageProperty<string>('Autor', block, recordMap) || config.author
 
       // const socialDescription =
       //   getPageProperty<string>('Description', block, recordMap) ||
       //   config.description
 
       const lastUpdatedTime = getPageProperty<number>(
-        'Last Updated',
+        '🕧 Última actualización',
         block,
         recordMap
       )
       const publishedTime = getPageProperty<number>(
-        'Published',
+        '📅 Creación',
         block,
         recordMap
       )

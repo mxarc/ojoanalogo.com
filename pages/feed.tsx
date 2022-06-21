@@ -1,17 +1,17 @@
-import RSS from 'rss'
 import type { GetServerSideProps } from 'next'
+import { ExtendedRecordMap } from 'notion-types'
 import {
   getBlockParentPage,
   getBlockTitle,
   getPageProperty,
   idToUuid
 } from 'notion-utils'
-import { ExtendedRecordMap } from 'notion-types'
+import RSS from 'rss'
 
 import * as config from 'lib/config'
 import { getSiteMap } from 'lib/get-site-map'
-import { getCanonicalPageUrl } from 'lib/map-page-url'
 import { getSocialImageUrl } from 'lib/get-social-image-url'
+import { getCanonicalPageUrl } from 'lib/map-page-url'
 
 export const getServerSideProps: GetServerSideProps = async ({ req, res }) => {
   if (req.method !== 'GET') {
@@ -54,15 +54,15 @@ export const getServerSideProps: GetServerSideProps = async ({ req, res }) => {
 
     const title = getBlockTitle(block, recordMap) || config.name
     const description =
-      getPageProperty<string>('Description', block, recordMap) ||
+      getPageProperty<string>('Descripción', block, recordMap) ||
       config.description
     const url = getCanonicalPageUrl(config.site, recordMap)(pageId)
     const lastUpdatedTime = getPageProperty<number>(
-      'Last Updated',
+      '🕧 Última actualización',
       block,
       recordMap
     )
-    const publishedTime = getPageProperty<number>('Published', block, recordMap)
+    const publishedTime = getPageProperty<number>('📅 Creación', block, recordMap)
     const date = lastUpdatedTime
       ? new Date(lastUpdatedTime)
       : publishedTime

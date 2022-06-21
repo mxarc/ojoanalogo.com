@@ -10,7 +10,7 @@ export default siteConfig({
   // basic site info (required)
   name: 'El ojo analogo',
   domain: 'ojoanalogo.com',
-  author: 'Alfonso Reyes <@mxarc>',
+  author: 'Alfonso Reyes',
 
   // open graph metadata (optional)
   description:
@@ -49,15 +49,11 @@ export default siteConfig({
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
   // navigationStyle: 'default'
-  navigationStyle: 'default',
+  navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: '💬 Yo',
-      pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-    },
-    {
       title: '🖼️ Fotografía',
-      pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+      pageId: '03f70423afab4b6b8bcaf1c97b1aa734'
     }
   ]
 })
