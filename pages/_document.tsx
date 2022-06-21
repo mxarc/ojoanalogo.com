@@ -1,5 +1,6 @@
+import * as React from 'react'
+import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { IconContext } from '@react-icons/all-files'
-import Document, { Head, Html, Main, NextScript } from 'next/document'
 
 export default class MyDocument extends Document {
   render() {
@@ -19,7 +20,6 @@ export default class MyDocument extends Document {
           </Head>
 
           <body>
-
             <Main />
 
             <NextScript />
