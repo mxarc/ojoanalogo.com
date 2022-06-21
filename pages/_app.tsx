@@ -10,11 +10,11 @@ import 'prismjs/themes/prism-coy.css'
 // this might be better for dark mode
 // import 'prismjs/themes/prism-okaidia.css'
 
-// global style overrides for notion
-import 'styles/theme.css'
-
 // global style overrides for prism theme (optional)
 import 'styles/prism-theme.css'
+
+// global style overrides for notion
+import 'styles/theme.css'
 
 import * as Fathom from 'fathom-client'
 import type { AppProps } from 'next/app'

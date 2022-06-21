@@ -3,7 +3,7 @@
 :root {
   --font-family-primary: 'Rubik', sans-serif !important;
   --font-family-secondary: 'Nuosu SIL', serif !important;
-  --notion-font: var(--font-family-secondary);
+  --notion-font: var(--font-family-secondary) !important;
   --bg-color: #f9f6f0 !important;
 }
 
@@ -108,7 +108,7 @@ strong {
 }
 
 .notion-gallery-grid .notion-page-icon-inline {
-  display: none;
+  /**display: none;*/
 }
 
 .notion-gallery-grid .notion-page-title-text {
