@@ -53,7 +53,11 @@ export default siteConfig({
   navigationLinks: [
     {
       title: '🖼️ Fotos',
-      pageId: 'e24fbd1ec6aa47ef99d6b3e25c118170'
+      pageId: 'e50d255b049a4cae84e6a67d59872d37'
+    },
+    {
+      title: '📝 Blog',
+      pageId: '2ca6862b36ac4adfb8ff240e0480e733'
     }
   ]
 })
