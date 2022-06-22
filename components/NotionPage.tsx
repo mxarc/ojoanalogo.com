@@ -241,7 +241,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
   )
 
   const socialDescription =
-    getPageProperty<string>('Description', block, recordMap) ||
+    getPageProperty<string>('Descripción', block, recordMap) ||
     config.description
 
   return (

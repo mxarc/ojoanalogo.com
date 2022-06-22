@@ -73,7 +73,6 @@ strong {
   --notion-max-width: 900px;
 }
 
-
 .notion-text {
   padding: 0.5em 2px;
   font-family: var(--font-family-primary);
@@ -184,6 +183,7 @@ strong {
 
 .notion-callout {
   margin: 0.75em 0;
+  border-width: 3px;
 }
 
 .notion-hr {
@@ -218,6 +218,7 @@ strong {
 .notion-title {
   display: block;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .notion-collection-row {
@@ -244,7 +245,7 @@ strong {
 .notion-page-cover-wrapper span,
 .notion-page-cover-wrapper img {
   max-width: 1200px !important;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 .notion-page-cover-wrapper {
@@ -257,6 +258,14 @@ strong {
   .notion-page-cover-wrapper img {
     border-radius: 0;
   }
+}
+
+.notion-page-has-cover {
+  padding-top: 85px;
+}
+
+.notion-page-content-has-aside {
+  width: auto !important;
 }
 
 .notion-block-ab9a258d6cf444f3bb40dc2600feae91 .notion-page-link {
@@ -283,18 +292,6 @@ strong {
   font-family: var(--font-family-primary);
 }
 
-.notion-link:focus,
-.notion-link:hover {
-  border-bottom-color: transparent;
-
-  background-image: linear-gradient(90.68deg, #b439df 0.26%, #e5337e 102.37%);
-  background-repeat: no-repeat;
-  background-position: 0 100%;
-  background-size: 100% 0.1rem;
-
-  transition-property: background-position, background-size;
-  transition-duration: 300ms;
-}
 
 .notion-red_background,
 .notion-pink_background,
@@ -389,10 +386,4 @@ strong {
 .notion-page-icon-hero.notion-page-icon-image span,
 .notion-page-icon-hero.notion-page-icon-image img {
   border-radius: 50%;
-}
-
-
-.notion-bookmark:hover {
-  border-image: linear-gradient(90.68deg, #b439df 0.26%, #e5337e 102.37%);
-  border-image-slice: 1;
 }
