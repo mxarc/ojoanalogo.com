@@ -52,7 +52,7 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: '🖼️ Galería',
+      title: '🖼️ Fotos',
       pageId: 'e24fbd1ec6aa47ef99d6b3e25c118170'
     }
   ]
