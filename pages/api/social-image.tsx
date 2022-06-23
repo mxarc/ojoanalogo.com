@@ -94,7 +94,8 @@ export default withOGImage<'query', 'id'>({
               month: 'long'
             })} ${dateUpdated.getFullYear()}`
           : undefined
-      const detail = date || config.domain
+      const detail = date
+      const urlSite = config.domain;
 
       return (
         <html>
@@ -117,11 +118,11 @@ export default withOGImage<'query', 'id'>({
                         style={{ backgroundImage: `url(${authorImage})` }}
                       />
                     )}
-
-                    {(author || detail) && (
+                    {(author || detail || urlSite) && (
                       <div className='metadata-rhs'>
                         {author && <div className='author'>{author}</div>}
                         {detail && <div className='detail'>{detail}</div>}
+                        {urlSite && <div>{urlSite}</div>}
                       </div>
                     )}
                   </div>
