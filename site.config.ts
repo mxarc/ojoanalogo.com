@@ -52,6 +52,10 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
+      title: '🏠 Inicio',
+      pageId: '5ea8c5bbfdc34ea4b2fb1a6cc611fcea'
+    },
+    {
       title: '🖼️ Fotos',
       pageId: 'e50d255b049a4cae84e6a67d59872d37'
     },

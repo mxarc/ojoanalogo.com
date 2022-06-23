@@ -181,8 +181,8 @@ body {
   justify-content: center;
   align-items: center;
   padding: var(--padding);
-  background: #1F2027;
-  color: #fff;
+  background: #f9f6f0;
+  color: #37352f;
 }
 
 .horiz {
@@ -213,7 +213,7 @@ body {
 }
 
 .metadata {
-  color: #A9ACC0;
+  color: #37352f;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -234,7 +234,7 @@ body {
   min-height: 20vmin;
   max-height: 20vmin;
   border-radius: 50%;
-  border: 1.5vmin solid #fff;
+  border: 1.5vmin solid #37352f;
 }
 
 .metadata-rhs {
