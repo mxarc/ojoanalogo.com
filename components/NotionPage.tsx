@@ -156,7 +156,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
 
   const components = React.useMemo(
     () => ({
-      nextImage: Image,
+      // nextImage: Image, temporarly disabled due to over optimization and passing the limit with Vercel for image optimizations
       nextLink: Link,
       Code,
       Collection,
