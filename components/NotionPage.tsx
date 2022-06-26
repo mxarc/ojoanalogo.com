@@ -1,6 +1,5 @@
 import cs from 'classnames'
 import dynamic from 'next/dynamic'
-import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { PageBlock } from 'notion-types'
