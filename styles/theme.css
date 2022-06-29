@@ -217,7 +217,7 @@ strong {
 
 .notion-collection-card {
   border-radius: 8px;
-  box-shadow: none;
+  box-shadow: 2px 2px 8px 4px rgba(15, 15, 15, 0.1);
 }
 
 .notion-collection-card-cover img {
@@ -226,8 +226,9 @@ strong {
 
 .notion-collection-card {
   overflow: visible;
-  border: 3px solid;
-  border-color: rgb(55, 53, 47);
+  border: 2px solid;
+  background-color: #fff;
+  border-color: rgba(55, 53, 47, 0.8);
 }
 
 .notion-collection-card-cover {
@@ -243,6 +244,10 @@ strong {
 
 .notion-collection-card:hover .notion-collection-card-cover {
   filter: brightness(120%);
+}
+
+.notion-collection-card:hover {
+  background-color: #eeebeb;
 }
 
 .notion-collection-card-body {
